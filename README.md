@@ -1,24 +1,36 @@
-# Scroll::Up
+# Scroll Page to Top
 
-TODO: Write a gem description
+scroll-up is a simple Rails engine for scrolling page to top.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'scroll-up'
+    gem 'scroll-up', '~> 0.0.5'
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install scroll-up
 
 ## Usage
 
-TODO: Write usage instructions here
+require js
+
+```js
+//= require scroll-up
+```
+
+require css
+
+```css
+*= require scroll-up
+```
+
+if you use sass, just
+```scss
+@import "scroll-up";
+```
 
 ## Contributing
 
