@@ -23,11 +23,11 @@ require js
 
 require css
 
-```css
+```scss
 *= require scroll-up
 ```
 
-if you use sass, just
+if scss, just
 ```scss
 @import "scroll-up";
 ```
