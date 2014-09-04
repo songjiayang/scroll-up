@@ -32,6 +32,12 @@ if scss, just
 @import "scroll-up";
 ```
 
+Adding dom trigger, it must be `#scrollUp`, a example: 
+```slim
+a#scrollUp href="#top"
+  i.fa.fa-chevron-up
+```
+
 ## Contributing
 
 1. Fork it ( https://github.com/songjiayang/scroll-up/fork )
